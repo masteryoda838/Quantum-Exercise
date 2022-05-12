@@ -17,6 +17,8 @@ import click
 from multi_period import MultiPeriod
 from single_period import SinglePeriod
 
+# insert a line here
+
 @click.command()
 @click.option('-s', '--stocks', multiple=True, type=str, 
               default=['AAPL', 'MSFT', 'AAL', 'WMT'], show_default=True,
